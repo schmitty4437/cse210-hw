@@ -11,7 +11,7 @@ class Program
 
         //Random number generator
         Random randomGenerator = new Random();
-        int number = randomGenerator.Next(1,100);
+        int number = randomGenerator.Next(1,101);
 
         int guess = 0;
         string guessText = "";
